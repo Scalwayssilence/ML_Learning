@@ -1,0 +1,18 @@
+# Python virtual environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# IDE settings
+.idea/
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Generated machine-learning artifacts and large local datasets
+day02/model/*.pkl
+day02/data/手写数字识别.csv
